@@ -7,7 +7,7 @@ for running application
 
 
 USAGE
-There is fields array in src/index.js file. You can add here which fields you want to filter for missing.
+There is fields array in index.js file. You can add here which fields you want to filter for missing.
 for example:
 
 fields = [
