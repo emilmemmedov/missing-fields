@@ -1,0 +1,46 @@
+Arguments: 
+  /home/selina/.nvm/versions/node/v12.20.0/bin/node /usr/share/yarn/bin/yarn.js add axios
+
+PATH: 
+  /home/selina/.nvm/versions/node/v12.20.0/bin:/opt/gradle/gradle-7.3.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/emil/kafka/bin:/home/selina/Documents/project/missing-fields/node_modules/.bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  12.20.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://selinarnd-020457103146.d.codeartifact.us-east-1.amazonaws.com/npm/selinarnd/axios: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:314:20)
+      at Gunzip.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:420:28)
+      at Gunzip.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "missing-fields",
+    "version": "1.0.0",
+    "description": "looging for missing fields in location",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Emil",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
