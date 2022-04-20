@@ -44,10 +44,13 @@ const fields = [
     'hasProducts',
     'locationSummaryUpdatedAt'
 ];
-
+let locationParams = {
+    includeUpcomingLocations: true,
+    content:false
+}
 let payload  = [];
 
-axios.get('https://gw.selinatech.com/locations/api/locations/').then((data) =>{
+axios.get('https://gw.selinatech.com/locations/api/locations',{params: locationParams}).then((data) =>{
     handle(data.data);
     console.log(payload)
 })
