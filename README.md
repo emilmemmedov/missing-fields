@@ -15,3 +15,11 @@ fields = [
   "agentIDInfluencer"
 ]
 the example shown above will filter only two fields(shortName, agentIDInfluencer)
+
+
+You can also add some query params to locationParams field
+for example: 
+let locationParams = {
+    includeUpcomingLocations: true,
+    content:false
+}
